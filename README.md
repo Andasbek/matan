@@ -6,12 +6,7 @@
    Найти первую производную функции $$\( f(x) = x^3 - 4x + 6 \).$$
 
    ```python
-   import sympy as sp
 
-   x = sp.symbols('x')
-   f = x**3 - 4*x + 6
-   derivative = sp.diff(f, x)
-   print("Первая производная:", derivative)
    ```
 
 #### 2. Найти первую и вторую производные
